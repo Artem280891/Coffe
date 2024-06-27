@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font: 24px "Jost", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.hero{
+    margin: 10px auto;
+    padding: 24px 0 152px;
+    max-width: 1440px;
+    /* height: 1046px; */
+}
+
+.container{
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    padding: 20px 100px;
+    background: #EEEFF1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    font-weight: 600;
+    font-size: 15px;
+} 
+
+.content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 100px;
+ 
+}
+
+/* Заголовок 1 блок */
+.content h1{
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 100%;
+}
+
+/* текстовая часть 1 блок */
+.content p{
+    max-width: 530px;
+}
+
+/* кнопка черная*/
+.btn{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 60px 0 182px;
+
+}
+
+/* 2 блок */
+.explore{
+    background: #F5F7FD;
+    box-sizing: border-box;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.explore  h1{
+    font-weight: 800;
+    font-size: 64px;
+    padding-top: 150px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.item{
+    background: #fff;
+    width: 390px;
+    /* outline: 1px solid red; */
+    border-radius: 20px;
+}
+
+.item h3{
+    font-style: 36px;
+    padding-top: 40px;
+}
+
+.item a{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.photo_small{
+    padding-top: 60px;
+    
+}
+
+/* 3 блок */
+.order_coffee{
+    background: #F5F7FD;
+    margin: 0 auto;
+    padding: 160px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.order_info{
+    max-width: 512px;
+    /* outline: 1px solid red; */
+}
+
+.order_coffee h1{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    padding: 80px 0 30px;
+}
